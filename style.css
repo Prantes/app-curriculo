@@ -389,99 +389,136 @@ margin: none;
   width: 100%;
 }
 /*================Página de Login================*/
-
-.container_login{
+.main-login{
+  width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
-}
-
-.img_login{
+  background-color:#181818;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+}
+.left-login{
+ display: none;
+}
+.left-login > h1{
+  font-size:3vw;
+  color:#57BE6C;
+}
+.left-login-image{
+  width: 35vw;
+
 }
 
-.img_login img{
-  height: 200px;
-  width: 200px;
-}
-
-.form-inline {  
+.right-login{
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-flow:column;
+  justify-content: center;
   align-items: center;
 }
-
-.form-inline label {
-display: flex;
-text-align: center;
-
+.card-login{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: #101010;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
 }
-
-.form-inline input {
-  width: 70%;
-  vertical-align:baseline;
-  margin: 10px 0px 10px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  text-align: center;
-}
-
-.form-inline button {
-  width: 75%;
-  padding: 10px;
-  background-color: #57BE6C;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-.form-inline button:hover {
-  background-color: #101010;
-}
-.text_login{
-  padding-top: 20px;
-  text-align: center;
+.card-login >h1{
   font-family: var(--font-primary);
-  text-transform: uppercase;
+  color:#57BE6C;
+  font-weight: 800;
+  margin:0;
 }
-
-.ou{
+.textfield{
+  width:100% ;
   display: flex;
-  flex-flow:column;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  margin: 10px 0px;
 }
-.ou button{
-  width: 75%;
-  padding: 10px;
-  margin-top: 15px;
-  background-color: #57BE6C;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-  text-transform: uppercase;
+.textfield input{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background:#181818;
+  color:#57BE6C ;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
 }
-.ou button i{
-  font-size: 15px;
+.textfield label{
+  font-family: var(--font-action);
+  color: #FAFCFE;
+  margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+  color: #57BE6C;
+}
+.card-login span{
   text-align: center;
+  color: #57BE6C;
 }
-.ou p{
-  padding-top: 10px;
-  font-family:var(--font-primary);
+.btn-login{
+  width: 100%;
+  padding:16px;
+  margin: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #181818;
+  background: #57BE6C;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.btn-google{
+  margin-top: 10px;
+  text-align: left;
+  width: 100%;
+  padding:16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  color: #ffffff;
+  background: #646464;
+  cursor: pointer;
+  font-size: .6rem;
+}
+.btn-google i{
+ text-align: center;
+ font-size: 1rem;
+ padding-right: 20px;
+}
+.btn-linkedin{
+  text-align: left;
+  width: 100%;
+  padding:16px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  color: #ffffff;
+  background: #0a66c2;
+  cursor: pointer;
+  font-size: .6rem;
+}
+.btn-linkedin i{
+  text-align: center;
+  font-size: 1rem;
+  padding-right: 20px;
 }
 
-.link{
-  color: #181818;
-  text-align: center;
-  padding-top: 10px;
-  font-family:var(--font-primary);
-}
-.link p {
-  padding-top: 10px;
-}
 }
 
 @media (min-width: 700px) and (max-width: 1023px)  { 
@@ -821,97 +858,142 @@ margin: none;
   margin-bottom: 30px;
 }
 /*================Página de Login================*/
-
-.container_login{
+.main-login{
+  width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
-}
-
-.img_login{
+  background-color:#181818;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
 }
-
-.img_login img{
-  height: 200px;
-  width: 200px;
-}
-
-.form-inline {  
+.left-login{
+  width: 50vw;
+  height: 100vh;
   display: flex;
-  flex-flow:column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-
-.form-inline label {
-display: flex;
-text-align: center;
-
-}
-
-.form-inline input {
-  width: 70%;
-  vertical-align:baseline;
-  margin: 10px 0px 10px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  text-align: center;
-}
-
-.form-inline button {
-  width: 75%;
-  padding: 10px;
-  background-color: #57BE6C;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-.form-inline button:hover {
-  background-color: #101010;
-}
-.text_login{
-  padding-top: 20px;
-  text-align: center;
+.left-login > h1{
   font-family: var(--font-primary);
-  text-transform: uppercase;
+  font-size:3vw;
+  color:#57BE6C;
+}
+.left-login-image{
+  width: 35vw;
+
 }
 
-.ou{
+.right-login{
+  width: 50vw;
+  height: 100vh;
   display: flex;
-  flex-flow:column;
+  justify-content: center;
   align-items: center;
 }
-.ou button{
-  width: 75%;
-  padding: 10px;
-  margin-top: 15px;
-  background-color: #57BE6C;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-  text-transform: uppercase;
+.card-login{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: #0e0d0d;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
 }
-.ou button i{
-  font-size: 15px;
+.card-login >h1{
+  font-family: var(--font-secondary);
+  color:#57BE6C;
+  font-weight: 800;
+  margin:0;
+}
+.textfield{
+  width:100% ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  margin: 10px 0px;
+}
+.textfield input{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background:#181818;
+  color:#57BE6C ;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+.textfield label{
+  font-size: .8rem;
+  font-family: var(--font-action);
+  color: #FAFCFE;
+  margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+  color: #57BE6C;
+}
+
+.card-login span{
   text-align: center;
+  color: #57BE6C;
 }
-.ou p{
-  padding-top: 10px;
-  font-family:var(--font-primary);
-}
-.link{
+.btn-login{
+  width: 100%;
+  padding:16px;
+  margin: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
   color: #181818;
-  text-align: center;
-  padding-top: 10px;
-  font-family:var(--font-primary);
+  background: #57BE6C;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
 }
-.link p {
-  padding-top: 10px;
+.btn-google{
+  margin-top: 10px;
+  text-align: left;
+  width: 100%;
+  padding:16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  color: #ffffff;
+  background: #646464;
+  cursor: pointer;
+  font-size: .6rem;
+}
+.btn-google i{
+ text-align: center;
+ font-size: 1rem;
+ padding-right: 20px;
+}
+.btn-linkedin{
+  text-align: left;
+  width: 100%;
+  padding:16px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  color: #ffffff;
+  background: #0a66c2;
+  cursor: pointer;
+  font-size: .6rem;
+}
+.btn-linkedin i{
+  text-align: center;
+  font-size: 1rem;
+  padding-right: 20px;
 }
 
 }
@@ -1258,6 +1340,142 @@ padding: 70px 0;
   color:#181818;
   background-color: #57BE6C;
 }
+.main-login{
+  width: 100vw;
+  height: 100vh;
+  background-color:#181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.left-login > h1{
+  font-family: var(--font-primary);
+  font-size:3vw;
+  color:#57BE6C;
+}
+.left-login-image{
+  width: 35vw;
 
 }
 
+.right-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-login{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: #101010;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+.card-login >h1{
+  font-family: var(--font-secondary);
+  color:#57BE6C;
+  font-weight: 800;
+  margin:0;
+}
+.textfield{
+  width:100% ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  margin: 10px 0px;
+}
+.textfield input{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background:#181818;
+  color:#57BE6C ;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #0e0d0d;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield label{
+  font-family: var(--font-action);
+  color: #FAFCFE;
+  margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+  color: #57BE6C;
+}
+.esqueci_senha{
+  text-align: right;
+  color: #57BE6C;
+}
+#Cadastre-se{
+  text-align: right;
+  color: #57BE6C;
+}
+.btn-login{
+  width: 100%;
+  padding:16px;
+  margin: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #181818;
+  background: #57BE6C;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.btn-google{
+  margin-top: 10px;
+  text-align: left;
+  width: 100%;
+  padding:16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  color: #ffffff;
+  background: #646464;
+  cursor: pointer;
+}
+.btn-google i{
+ text-align: center;
+ font-size: 1rem;
+ padding-right: 20px;
+}
+.btn-linkedin{
+  text-align: left;
+  width: 100%;
+  padding:16px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform:uppercase;
+  color: #ffffff;
+  background: #0a66c2;
+  cursor: pointer;
+}
+.btn-linkedin i{
+  text-align: center;
+  font-size: 1rem;
+  padding-right: 20px;
+}
+}

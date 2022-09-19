@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SosCurriculos</title>
     <script src="https://kit.fontawesome.com/6d3af73875.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../style.css">
+    <title>Login</title>
 </head>
 <body>
-    <div class="container_login">
-        
-       <div class="img_login"><a href="../index.html"><img  src="../img/Login.gif" alt="" srcset=""></a>
-        
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça Login<br>e estruture o seu curriculo<h1>
+
+            <img src="../img/login2.svg" class="left-login-image" alt="login animação">
+            
         </div>
-        <div class="area_login">
-            <form class="form-inline" action="#">
-                
-                <input type="email" id="email" placeholder="Digite seu e-mail" name="email">
-                
-                <input type="password" id="pwd" placeholder="Digite sua senha" name="pswd">
-
-                <button type="submit">Entrar</button>
-                <a class="link" href=""><p>Esqueceu sua senha?</p></a>
-              </form>
-
-              <div class="ou">
-              <p class="text_login">Ou</p>
-
-              <button type="#"><i class="fa-brands fa-google"></i> Entre com o Google</button>
-              <button type="#"><i class="fa-brands fa-facebook-f"></i> Entre com o Facebook</button>
-              <a class="link" href="#">
-                <p>Não possuiu conta? Crie uma Aqui</p>
-             </a>
-
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="usuario">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <a href=""><span >Esqueci minha senha</span></a>
+                <button class="btn-login">Login</button>
+                <a href="">
+                    <span>Cadastre-se</span>
+                </a>
+                <button class="btn-google"> <i class="fa-brands fa-google"></i>Conecte-se com o Google</button>
+                <button class="btn-linkedin"><i class="fa-brands fa-linkedin"></i>Conecte-se com o Linkedin</button>
             </div>
-
         </div>
     </div>
 </body>
