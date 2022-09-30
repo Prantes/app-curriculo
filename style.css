@@ -469,7 +469,8 @@ margin: none;
 .btn-login{
   width: 100%;
   padding:16px;
-  margin: 15px;
+  margin-top:15px;
+  margin-bottom: 15px;
   border: none;
   border-radius: 8px;
   outline: none;
@@ -504,7 +505,8 @@ margin: none;
   text-align: left;
   width: 100%;
   padding:16px;
-  margin: 10px;
+  margin-top:15px;
+  margin-bottom: 15px;
   border: none;
   border-radius: 8px;
   outline: none;
@@ -946,7 +948,8 @@ margin: none;
 .btn-login{
   width: 100%;
   padding:16px;
-  margin: 15px;
+  margin-top:15px;
+  margin-bottom: 15px;
   border: none;
   border-radius: 8px;
   outline: none;
@@ -981,7 +984,8 @@ margin: none;
   text-align: left;
   width: 100%;
   padding:16px;
-  margin: 10px;
+  margin-top:15px;
+  margin-bottom: 15px;
   border: none;
   border-radius: 8px;
   outline: none;
@@ -1031,6 +1035,7 @@ align-items: center;
 justify-content: space-between;
 background: #181818;
 }
+
 a {
 color: #ffffff;
 text-decoration: none;
@@ -1431,7 +1436,8 @@ padding: 70px 0;
 .btn-login{
   width: 100%;
   padding:16px;
-  margin: 15px;
+  margin-top:15px;
+  margin-bottom: 15px;
   border: none;
   border-radius: 8px;
   outline: none;
@@ -1465,7 +1471,8 @@ padding: 70px 0;
   text-align: left;
   width: 100%;
   padding:16px;
-  margin: 10px;
+  margin-top:15px;
+  margin-bottom: 15px;
   border: none;
   border-radius: 8px;
   outline: none;
